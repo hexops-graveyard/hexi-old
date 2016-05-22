@@ -1,6 +1,11 @@
 [package]
 name = "hexi"
-version = "0.1.0"
+version = "0.0.1"
 authors = ["Stephen Gutekanst <stephen.gutekanst@gmail.com>"]
+description = "Hexi: Game Engine & Graphics Toolkit"
+homepage = "https://hexops.com/hexi"
+repository = "https://github.com/hexops/hexi"
+keywords = ["hexops", "hexi", "game", "engine", "graphics"]
+license = "BSD-3-Clause"
 
 [dependencies]
