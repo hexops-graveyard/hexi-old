@@ -13,3 +13,5 @@
 # We are a library
 Cargo.lock
 
+# mdbook
+book/book/
