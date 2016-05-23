@@ -56,6 +56,4 @@
 	- [Vectors [WIP]](./math/vectors.md)
 	- [Matrices [WIP]](./math/matrices.md)
 	- [Quaternions [WIP]](./math/quaternions.md)
-- [About the project [WIP]](./project/index.md)
-	- [Roadmap [WIP]](./project/roadmap.md)
-	- [License [WIP]](./project/license.md)
+- [License](./license.md)

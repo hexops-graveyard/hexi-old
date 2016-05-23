@@ -1,1 +1,1 @@
-# License [WIP]
+# License
