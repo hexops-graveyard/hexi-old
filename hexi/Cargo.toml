@@ -9,3 +9,4 @@ keywords = ["hexops", "hexi", "game", "engine", "graphics"]
 license = "BSD-3-Clause"
 
 [dependencies]
+hexi_math = { path = "../math" }
