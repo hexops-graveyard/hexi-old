@@ -10,10 +10,10 @@ This book is a WIP and serves as the canonical source of information for Hexi.
 $ cargo install mdbook
 ```
 
-## Building
+## Development
 
 ```bash
-$ mdbook build
+$ mdbook watch
 ```
 
 At which point you can load `book/index.html` in your browser for viewing.
