@@ -6,14 +6,17 @@
 /// # Examples
 ///
 /// ```
-/// let x = hexi_math::Vec2(4.0f32, 8.0f32);
-/// println!("{:?}", x);
+/// let v = hexi_math::Vec2{x: 4.0f32, y: 8.0f32};
+/// println!("{:?}", v);
 /// ```
 ///
 /// ```
-/// let x = hexi_math::Vec2(1u8, 5u8);
-/// println!("{:?}", x);
-/// println!("({:?}, {:?})", x.0, x.1);
+/// let v = hexi_math::Vec2{x: 1u8, y: 5u8};
+/// println!("{:?}", v);
+/// println!("({:?}, {:?})", v.x, v.y);
 /// ```
 #[derive(Copy, Clone, Debug)]
-pub struct Vec2<T>(pub T, pub T);
+pub struct Vec2<T> {
+    pub x: T,
+    pub y: T,
+}
