@@ -1,5 +1,9 @@
 /// Vec4 is a generic four-component vector type.
 ///
+/// It effectively points to a specific `[x, y, z]` coordinate in 3D space and
+/// the fourth `[w]` component can represent something else (e.g. force or
+/// acceleration).
+///
 /// # Examples
 ///
 /// ```

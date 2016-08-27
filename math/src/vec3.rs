@@ -1,5 +1,12 @@
 /// Vec3 is a generic three-component vector type.
 ///
+/// It has uses in both 2D and 3D space.
+///
+/// - In 2D space, `[x, y]` can represent the direction of the vector and the
+///   third `[z]` component can represent something else (e.g. force or
+///   acceleration).
+/// - In 3D space, `[x, y, z]` can represent the direction of the vector.
+///
 /// # Examples
 ///
 /// ```

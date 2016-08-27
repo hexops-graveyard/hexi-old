@@ -1,5 +1,8 @@
 /// Vec2 is a generic two-component vector type.
 ///
+/// It effectively represents a direction by pointing from the origin (which is
+/// implicitly `[0, 0]`) to a specific `[x, y]` coordinate.
+///
 /// # Examples
 ///
 /// ```
