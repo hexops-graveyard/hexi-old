@@ -1,5 +1,7 @@
 /// Point3 is a generic three-component point type.
 ///
+/// It represents a specific `[x, y, z]` point in 3D space.
+///
 /// # Examples
 ///
 /// ```

@@ -1,5 +1,7 @@
 /// Point2 is a generic two-component point type.
 ///
+/// It represents a specific `[x, y]` point in 2D space.
+///
 /// # Examples
 ///
 /// ```
