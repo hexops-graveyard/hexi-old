@@ -1,0 +1,15 @@
+[package]
+name = "hexi_logger"
+version = "0.1.0"
+authors = ["Stephen Gutekanst <stephen.gutekanst@gmail.com>"]
+description = "A dead simple logger implementation."
+homepage = "https://hexops.com/hexi/logger"
+repository = "https://github.com/hexops/hexi"
+keywords = ["hexops", "hexi", "log", "logger", "simple"]
+license = "BSD-3-Clause"
+
+[dependencies]
+log = "^0.4"
+
+[target.wasm32-unknown-unknown.dependencies]
+stdweb = "^0.4"
